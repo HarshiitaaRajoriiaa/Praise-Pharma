@@ -17,7 +17,7 @@ import anti from "../Images/Products/anti.webp";
 import protective from "../Images/Products/protective.webp";
 import white from "../Images/Products/white.webp";
 import sunscreen from "../Images/Products/sunscreen.webp";
-import whitefield from "../Images/Products/whitefield.webp";
+import whitefield from "../Images/Products/whiteo.webp";
 
 // Medicine Categories
 const medicineCategories = [

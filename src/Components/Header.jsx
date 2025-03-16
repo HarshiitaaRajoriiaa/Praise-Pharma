@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-200 shadow-2xl p-2">
+    <nav className="bg-[#e5e2e1]  border border-1 border-gray-400 shadow-md p-2">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
@@ -22,7 +22,7 @@ const Header = () => {
 
         {/* Nav Links */}
         <ul
-          className={`lg:flex lg:space-x-6 absolute lg:static bg-gray-200 w-full lg:w-auto top-16 left-0 lg:flex-row flex-col items-center transition-all duration-300 shadow-lg lg:shadow-none ${
+          className={`lg:flex lg:space-x-6 absolute lg:static  w-full lg:w-auto top-16 left-0 lg:flex-row flex-col items-center transition-all duration-300 shadow-lg lg:shadow-none ${
             isOpen ? "block" : "hidden"
           }`}
         >
