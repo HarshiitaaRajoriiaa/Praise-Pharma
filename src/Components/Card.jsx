@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import about from "../Images/aboutt.webp";
+import about from "../Images/about.webp";
 import deal from "../Images/deal.webp";
 import product from "../Images/products.webp";
 
