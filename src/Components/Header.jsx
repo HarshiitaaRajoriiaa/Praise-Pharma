@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-200 shadow-md p-4">
+    <nav className="bg-gray-200 shadow-2xl p-2">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
