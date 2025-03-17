@@ -17,7 +17,7 @@ const acneProducts = [
     description: "Powerful acne-fighting gel.",
     image: A,
   },
-  { name: "ONAK SR LOTION", description: "Sulfur & resorcinol lotion Specialist for Truncal Acne/ Shoulder Acne Onak sr solution is a kertolytic and Anti- Bacterial lotion Only brand available in solution base All type of acne over Truncal or Shoulder Apply over the affected area 30 minutes before taking bath If no irritations, Apply in the night, morning wash while taking bath. Meant for overnight application hence stay for long time ONAK SR LOTION causes some irritation and skin peeling since it’s a kertolytic action Not to worry apply emollient Onak sr lotion has sulfur it’s a strong aromatic odours; however we masked with good fragrance leads to better compliance. Onak sr lotion has a text book recommended combinations of Sulfur & resorcinol. In India no one making this combinations which work wonder in Truncal Acne/ Shoulder Acne", image: O },
+  { name: "ONAK SR LOTION", description: "Sulfur & resorcinol lotion Specialist for Truncal Acne/ Shoulder Acne Onak sr solution is a kertolytic and Anti- Bacterial lotion Only brand available in solution base All type of acne over Truncal or Shoulder Apply over the affected area 30 minutes before taking bath If no irritations, Apply in the night, morning wash while taking bath.", image: O },
   {
     name: "Isonak 20",
     description: "Oral treatment for severe acne.",
