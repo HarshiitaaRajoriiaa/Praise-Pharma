@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import About from "../Images/About.webp";
+import About from "../Images/about.webp";
 
 export default function AboutUs() {
   useEffect(() => {
