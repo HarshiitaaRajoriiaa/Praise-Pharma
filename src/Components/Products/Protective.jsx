@@ -1,76 +1,24 @@
-import React from 'react'
-import LULILYN from '../../Images/Products/Fungal/L.webp'
-import ITRALYN from '../../Images/Products/Fungal/ITRALYN.webp'
-import ESAVA_SOAP from '../../Images/Products/Fungal/ESAVA.webp'
-import ESAVA_POWDER from '../../Images/Products/Fungal/ESAVAp.webp'
-import ESAVA_OINTMENT from '../../Images/Products/Fungal/ESAVAo.webp'
-import ESAVA_LOTION from '../../Images/Products/Fungal/ESAVAlot.webp'
-import ESAVA_CREAM from '../../Images/Products/Fungal/ESAVAC.webp'
-import KESAVA_SHAMPOO from '../../Images/Products/Fungal/KESAVA.webp'
-import ESAVASONE_LOTION from "../../Images/Products/Fungal/ESAVAsONEL.webp"
-import THYMOL_LOTION from "../../Images/Products/Fungal/THYMOLlot.webp"
-import { useState } from 'react'
+import React from "react";
+import { useState } from "react";
+import PROTECTIVE_CREAM from "../../Images/Products/PC/BarrierCream50gm.webp"
+import PROTECTIVE_OINTMENT from "../../Images/Products/PC/BarrierOintment.webp"
 
-
-
-
-const fungal = [
+const protectiveProducts = [
   {
-    name: "LULILYN CREAM",
-    description: "Topical antifungal cream for skin infections.",
-    image: LULILYN,
+    name: "Protective Cream | Barrier Cream 50gm",
+    description: "Provides a protective barrier for sensitive skin.",
+    image: PROTECTIVE_CREAM,
   },
   {
-    name: "ITRALYN 100MG & 200MG",
-    description: "Oral antifungal medication for systemic infections.",
-    image: ITRALYN,
-  },
-  {
-    name: "ESAVA SOAP",
-    description: "Medicated soap for fungal and bacterial skin conditions.",
-    image: ESAVA_SOAP,
-  },
-  {
-    name: "ESAVA POWDER",
-    description: "Antifungal powder for preventing and treating infections.",
-    image: ESAVA_POWDER,
-  },
-  {
-    name: "KESAVA SHAMPOO",
-    description: "Antifungal and anti-dandruff shampoo.",
-    image: KESAVA_SHAMPOO,
-  },
-  {
-    name: "ESAVA OINTMENT",
-    description: "Topical antifungal ointment for skin treatment.",
-    image: ESAVA_OINTMENT,
-  },
-  {
-    name: "ESAVASONE LOTION",
-    description: "Medicated lotion for fungal and inflammatory skin issues.",
-    image: ESAVASONE_LOTION,
-  },
-  {
-    name: "ESAVA CREAM",
-    description: "Broad-spectrum antifungal cream.",
-    image: ESAVA_CREAM,
-  },
-  {
-    name: "ESAVA LOTION",
-    description: "Lightweight antifungal lotion for daily use.",
-    image: ESAVA_LOTION,
-  },
-  {
-    name: "THYMOL LOTION",
-    description: "Antiseptic and antifungal lotion for skin conditions.",
-    image: THYMOL_LOTION,
+    name: "Protective Ointment | Barrier Ointment",
+    description: "Long-lasting protection and hydration for the skin.",
+    image: PROTECTIVE_OINTMENT,
   },
 ];
 
-
-const Fungal = () => {
+const Protective = () => {
   const [flipped, setFlipped] = useState(
-    Array(fungal.length).fill(false)
+    Array(protectiveProducts.length).fill(false)
   );
 
   const handleFlip = (index) => {
@@ -85,7 +33,7 @@ const Fungal = () => {
         Acne Treatment Products
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {fungal.map((product, index) => (
+        {protectiveProducts.map((product, index) => (
           <div key={index} className="relative w-full max-w-sm mx-auto">
             {/* Flip Container */}
             <div
@@ -110,7 +58,6 @@ const Fungal = () => {
                   className="w-full h-40 object-contain"
                 />
                 <h3 className="text-lg font-semibold mt-3">{product.name}</h3>
-                
               </div>
 
               {/* Back Side */}
@@ -142,5 +89,4 @@ const Fungal = () => {
   );
 };
 
-
-export default Fungal;
+export default Protective;
