@@ -9,7 +9,7 @@ export default function Landing() {
   }, []);
 
   return (
-    <div className="w-full h-screen  text-gray-700 flex items-center justify-center bg-[#e5e2e1]  p-10">
+    <div className="w-full h-screen  text-gray-700 flex items-center justify-center bg-white  p-10">
       <div data-aos="fade-up" className="text-center max-w-3xl">
         <h1 className="text-6xl tracking-wide ">
           Welcome To{" "}

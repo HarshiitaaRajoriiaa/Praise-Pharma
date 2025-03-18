@@ -12,10 +12,10 @@ const dealers = [
 
 export default function HDealers() {
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-6 flex flex-col items-center">
+    <div className="min-h-screen py-12 px-6 flex flex-col items-center">
       {/* Header Section */}
       <div className="text-center mb-10">
-        <h1 className="text-5xl font-extrabold text-lime-600">Our Dealers</h1>
+      <h1 className="text-5xl font-extrabold text-[#0c8536]">Our Dealers</h1>
         <p className="text-2xl text-gray-600 mt-2">
           Trusted partners worldwide ensuring quality healthcare.
         </p>

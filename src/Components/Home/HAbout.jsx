@@ -42,7 +42,7 @@ import { NavLink } from "react-router-dom";
 
 export default function HAbout() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-100 p-10">
+    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen p-10">
       {/* Left - Image Section */}
       <div className="md:w-1/2 flex justify-center">
         <img
@@ -54,7 +54,7 @@ export default function HAbout() {
 
       {/* Right - Content Section */}
       <div className="md:w-1/2 md:pl-10 text-center md:text-left">
-        <h1 className="text-5xl font-extrabold text-lime-600 leading-tight">
+        <h1 className="text-5xl font-extrabold text-[#0c8536] leading-tight">
           ABOUT PRAISE PHARMA
         </h1>
         <p className="text-2xl text-gray-600 mt-4">

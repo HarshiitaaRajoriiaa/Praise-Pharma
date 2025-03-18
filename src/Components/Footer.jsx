@@ -4,10 +4,10 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-red-500 to-green-600 text-white py-6 w-full">
+    <footer className="bg-gradient-to-b text-black from-lime-200 to-lime-400   py-6 w-full">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         {/* Navigation Links */}
-        <nav className="flex flex-wrap justify-center gap-6 text-lg font-semibold">
+        <nav className="flex flex-wrap justify-center gap-6 text-lg   font-semibold">
           <NavLink to="/" className="hover:underline">
             Home
           </NavLink>
@@ -29,28 +29,28 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-2xl hover:text-gray-100 hover:scale-110 transition" />
+            <FaLinkedin className="text-2xl hover:text-gray-600 hover:scale-110 transition" />
           </a>
           <a
             href="https://www.twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter className="text-2xl hover:text-gray-100 hover:scale-110 transition" />
+            <FaTwitter className="text-2xl hover:text-gray-600 hover:scale-110 transition" />
           </a>
           <a
             href="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="text-2xl hover:text-gray-100  hover:scale-110 transition" />
+            <FaInstagram className="text-2xl hover:text-gray-600  hover:scale-110 transition" />
           </a> 
           <a
             href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook className="text-2xl hover:text-gray-100  hover:scale-110 transition" />
+            <FaFacebook className="text-2xl hover:text-gray-600  hover:scale-110 transition" />
           </a>
         </div>
       </div>
