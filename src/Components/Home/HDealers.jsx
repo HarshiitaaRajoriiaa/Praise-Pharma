@@ -41,7 +41,7 @@ export default function HDealers() {
         to="/dealers"
         className="mt-12 bg-blue-400 hover:bg-blue-500 text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-md  transition"
       >
-        Explore More
+        View All
       </NavLink>
     </div>
   );

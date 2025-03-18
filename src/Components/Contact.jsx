@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div className="max-w-6xl mx-auto p-6 mt-6 mb-20 ">
       <div  className="text-center mb-5">
-        <h2 className="text-5xl font-bold text-lime-600">Contact Us</h2>
+        <h2 className="text-5xl font-bold text-[#0c8536]">Contact Us</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Section: Contact Form */}

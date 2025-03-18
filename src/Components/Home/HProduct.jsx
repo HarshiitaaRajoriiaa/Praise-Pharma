@@ -22,7 +22,7 @@ export default function HProduct() {
           to="/products"
           className="mt-6 inline-block bg-blue-400 hover:bg-blue-500 text-white text-lg font-semibold px-5 py-3 rounded-lg shadow-md  transition-all"
         >
-           - Explore More
+            View All Products
         </NavLink>
       </div>
 

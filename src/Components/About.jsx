@@ -12,7 +12,7 @@ export default function AboutUs() {
     <div className="container mx-auto px-4 py-16 mb-20 ">
       {/* Centered Title */}
       <div data-aos="fade-up" className="text-center mb-8">
-        <h2 className="text-5xl font-bold text-lime-600">About Us</h2>
+        <h2 className="text-5xl font-bold text-[#0c8536]">About Us</h2>
       </div>
 
       {/* Centered Main Content */}
@@ -31,7 +31,7 @@ export default function AboutUs() {
         {/* Left Side - Mission & Spirit */}
         <div data-aos="fade-right" className="md:w-1/2 space-y-8">
           <div>
-            <h3 className="text-3xl font-semibold text-green-600">
+            <h3 className="text-3xl font-semibold text-[#0c8536]">
               Our Mission
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -43,7 +43,7 @@ export default function AboutUs() {
           </div>
 
           <div>
-            <h3 className="text-3xl font-semibold text-green-600">
+            <h3 className="text-3xl font-semibold text-[#0c8536]">
               Our Spirit
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
