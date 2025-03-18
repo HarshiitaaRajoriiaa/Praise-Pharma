@@ -29,7 +29,7 @@ import PotentSteriods from "./Components/Products/PotentSteriods";
 import Heel from "./Components/Products/Heel";
 import Sunscreen from "./Components/Products/Sunscreen";
 import Skinwhite from "./Components/Products/Skinwhite";
-import ProtectiveCream from "./Components/Products/ProtectiveCream";
+import Protective from "./Components/Products/Protective";
 import Oral from "./Components/Products/Oral";
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -42,7 +42,7 @@ const router = createBrowserRouter(
       <Route path='products/anti-fungal' element={<Fungal/>}/>
       <Route path='products/emollient' element={<Emollient/>}/>
       <Route path='products/hair-care' element={<Hair/>}/>
-      <Route path='products/protective-cream' element={<ProtectiveCream/>}/>
+      <Route path='products/protective-cream' element={<Protective/>}/>
       <Route path='products/sunblock' element={<Sunscreen/>}/>
       <Route path='products/Hydratings-diseases' element={<Hansen/>}/>
       <Route path='products/heel-management' element={<Heel/>}/>
