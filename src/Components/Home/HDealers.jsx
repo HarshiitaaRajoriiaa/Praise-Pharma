@@ -39,7 +39,7 @@ export default function HDealers() {
       {/* Explore More Button */}
       <NavLink
         to="/dealers"
-        className="mt-12 bg-orange-600 text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-orange-700 transition"
+        className="mt-12 bg-blue-400 hover:bg-blue-500 text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-md  transition"
       >
         Explore More
       </NavLink>

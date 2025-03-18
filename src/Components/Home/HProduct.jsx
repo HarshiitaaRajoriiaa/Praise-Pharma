@@ -20,7 +20,7 @@ export default function HProduct() {
         {/* Button */}
         <NavLink
           to="/products"
-          className="mt-6 inline-block bg-orange-600 text-white text-lg font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-orange-700 transition-all"
+          className="mt-6 inline-block bg-blue-400 hover:bg-blue-500 text-white text-lg font-semibold px-5 py-3 rounded-lg shadow-md  transition-all"
         >
            - Explore More
         </NavLink>

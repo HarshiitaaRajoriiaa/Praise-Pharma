@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-b from-lime-200 to-lime-400 border border-1 border-gray-400 shadow-md p-2">
+    <nav className="bg-gradient-to-t from-gray-100 to-gray-200  border-gray-400 shadow-lg p-2">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
@@ -37,8 +37,8 @@ const Header = () => {
               <NavLink
                 to={link.path}
                 className={({ isActive }) =>
-                  `block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-300 transition-all ${
-                    isActive ? "text-green-600 font-bold" : ""
+                  `block px-4 py-2 rounded-lg text-black hover:underline transition-all ${
+                    isActive ? " text-green-700 font-bold" : ""
                   }`
                 }
                 onClick={() => setIsOpen(false)}

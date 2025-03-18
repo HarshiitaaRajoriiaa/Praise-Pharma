@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b text-black from-lime-200 to-lime-400   py-6 w-full">
+    <footer className="bg-gradient-to-b text-white from-blue-400 to-blue-500   py-6 w-full">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center gap-6 text-lg   font-semibold">
