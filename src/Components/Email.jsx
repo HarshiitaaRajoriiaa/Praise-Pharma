@@ -2,7 +2,7 @@ import React from "react";
 import { MdEmail } from "react-icons/md";
 
 const EmailButton = () => {
-  const email = "harshitarajoria02@gmail.com"; // Replace with your email
+  const email = "contact@praisepharma.com"; // Replace with your email
 
   return (
     <a

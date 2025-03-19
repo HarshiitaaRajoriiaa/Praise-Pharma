@@ -4,14 +4,14 @@ import HAbout from "./Home/HAbout";
 import HProduct from "./Home/HProduct";
 import HDealers from "./Home/HDealers";
 import Whatapp from "./Whatapp";
-import EmailButton from "./Email";
+// import EmailButton from "./Email";
 
 export default function Home() {
   return (
   <>
     <Whatapp/>
     <Landing/>
-    <EmailButton/>
+    {/* <EmailButton/> */}
     {/* <Card/> */}
     <HAbout/>
     <HProduct/>
