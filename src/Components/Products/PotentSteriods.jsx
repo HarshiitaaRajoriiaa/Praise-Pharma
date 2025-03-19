@@ -1,17 +1,28 @@
 import React from "react";
 import { useState } from "react";
+//high potent
 import PRAISVATE_S6 from "../../Images/Products/Potent/praisvates6.webp"
 import PRAISVATE_S3 from "../../Images/Products/Potent/praisvates3cream.webp"
 import PRAISVATE_CREAM from "../../Images/Products/Potent/PraisvateCream.webp"
 import PRAISVATE_OINTMENT from "../../Images/Products/Potent/PraisvateOintment.webp"
+
+//low potent
 import PAEDISONE_MF from "../../Images/Products/Potent/PaedisoneMFSkinCream.webp"
 import PAEDISONE_F from "../../Images/Products/Potent/PaedisoneFSkinCream.webp"
 import PAEDISONE_M from "../../Images/Products/Potent/PaedisoneMSkinCream.webp"
 import PAEDISONE_SKIN from "../../Images/Products/Potent/PaedisoneSkinCream.webp"
-import PRAISCORT_E from "../../Images/Products/Potent/PraisecortEOintment.webp"
+
+
+//mid potent
+import PRAISCORT_S_LOTION from "../../Images/Products/Potent/PraiscortSLotion.webp"
+import PRAISCORT_CREAM from "../../Images/Products/Potent/PraiscortCream.webp"
+import PRAISCORT_S_OINTMENT from "../../Images/Products/Potent/praiscortSOintment.webp"
+import PRAISCORT_E from "../../Images/Products/Potent/PraiscortEOintment.webp"
 import GINGICORT_BUCCAL from "../../Images/Products/Potent/GingicortBuccalPaste.webp"
-import PRAISCORT_10MG from "../../Images/Products/Potent/Praisecort10mgInjection.webp"
-import PRAISCORT_40MG from "../../Images/Products/Potent/Praisecort40mgInjection.webp"
+import PRAISCORT_10MG from "../../Images/Products/Potent/Praiscort10mgInjection.webp"
+import PRAISCORT_40MG from "../../Images/Products/Potent/Praiscort40mgInjection.webp"
+import PRAISCORT_OINTMENT from "../../Images/Products/Potent/PraiscortOintment.webp"
+import PRAISCORT_LOTION from "../../Images/Products/Potent/PraiscortLotion30ml.webp"
 
 
 
@@ -118,7 +129,7 @@ const Potent = () => {
   return (
     <div className="p-6 mb-20">
       <h2 className="text-2xl font-bold mb-4 text-center">
-        Oral Antibiotics Products
+        Potent Steroid Products
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {products.map((product, index) => (
