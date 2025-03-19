@@ -15,7 +15,7 @@ import PAEDISONE_SKIN from "../../Images/Products/Potent/PaedisoneSkinCream.webp
 
 //mid potent
 import PRAISCORT_S_LOTION from "../../Images/Products/Potent/PraiscortSLotion.webp"
-import PRAISCORT_CREAM from "../../Images/Products/Potent/Praiscortcream.webp"
+import PRAISCORT_CREAM from "../../Images/Products/Potent/praiscortcream.webp"
 import PRAISCORT_S_OINTMENT from "../../Images/Products/Potent/praiscortSOintment.webp"
 import PRAISCORT_E from "../../Images/Products/Potent/PraiscortEOintment.webp"
 import GINGICORT_BUCCAL from "../../Images/Products/Potent/GingicortBuccalPaste.webp"
