@@ -1,8 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import PRAISOLITE_SOAP from '../../Images/Products/SKINWHITENING/PRAISOLITESOAP.webp'
-import PRAISOLITE_GEL from '../../Images/Products/SKINWHITENING/PRAISOLITEGEL.webp'
-
+import PRAISOLITE_SOAP from "../../Images/Products/SKINWHITENING/PRAISOLITESOAP.webp";
+import PRAISOLITE_GEL from "../../Images/Products/SKINWHITENING/PRAISOLITEGEL.webp";
 
 const praiso = [
   {
@@ -29,7 +28,7 @@ const Skinwhite = () => {
   return (
     <div className="p-6 mb-20">
       <h2 className="text-2xl font-bold mb-4 text-center">
-        Acne Treatment Products
+        Skin Whitening Agent
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {praiso.map((product, index) => (

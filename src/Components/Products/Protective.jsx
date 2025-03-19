@@ -30,7 +30,7 @@ const Protective = () => {
   return (
     <div className="p-6 mb-20">
       <h2 className="text-2xl font-bold mb-4 text-center">
-        Acne Treatment Products
+        Protective Cream and Barrier Products
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {protectiveProducts.map((product, index) => (

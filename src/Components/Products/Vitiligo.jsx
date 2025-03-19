@@ -1,12 +1,15 @@
 import React from "react";
-import PIGOLYN_ND_CAPSULES_IMAGE from "../../Images/Products/Vitiligo/PIGOLYNNDCAPSULES.webp"
-import PIGOLYN_ND_LOTION_IMAGE from " ./../../Images/Products/Vitiligo/PIGOLYNNDLOTION.webp"
-import PIGOLYN_LOTION_IMAGE from " ./../../Images/Products/Vitiligo/PIGOLYNLOTION.webp"  
-import PIGOLYN_25MG_TAB_IMAGE from " ./../../Images/Products/Vitiligo/PIGOLYN25MGTAB.webp"
-import PIGOLYN_5MG_TAB_IMAGE from " ./../../Images/Products/Vitiligo/PIGOLYN5MGTAB.webp"
-import PIGOLYN_CREAM_IMAGE from " ./../../Images/Products/Vitiligo/PIGOLYNCREAM.webp"
-
 import { useState } from "react";
+import PIGOLYN_ND_CAPSULES_IMAGE from "../../Images/Products/Vitiligo/PIGOLYNNDCAPSULES.webp"
+import PIGOLYN_ND_LOTION_IMAGE from "../../Images/Products/Vitiligo/PIGOLYNNDLOTION.webp"
+import PIGOLYN_LOTION_IMAGE from "../../Images/Products/Vitiligo/PIGOLYNLOTION.webp"
+import PIGOLYN_25MG_TAB_IMAGE from "../../Images/Products/Vitiligo/PIGOLYN25MGTAB.webp"
+import PIGOLYN_5MG_TAB_IMAGE from "../../Images/Products/Vitiligo/PIGOLYN5MGTAB.webp"
+import PIGOLYN_CREAM_IMAGE from "../../Images/Products/Vitiligo/PIGOLYNCREAM.webp"
+// import { useState } from "react";
+
+
+
 
 const products = [
   {
@@ -53,7 +56,7 @@ const Vitiligo = () => {
   return (
     <div className="p-6 mb-20">
       <h2 className="text-2xl font-bold mb-4 text-center">
-        VITILIGO Products
+        Vitiligo Products
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {products.map((product, index) => (

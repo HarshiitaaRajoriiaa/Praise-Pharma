@@ -22,7 +22,7 @@ const Oral = () => {
   return (
     <div className="p-6 mb-20">
       <h2 className="text-2xl font-bold mb-4 text-center">
-        Acne Treatment Products
+        Oral Steroids Products
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {oral.map((product, index) => (
