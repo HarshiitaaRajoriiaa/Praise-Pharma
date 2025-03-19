@@ -4,6 +4,7 @@ import HAbout from "./Home/HAbout";
 import HProduct from "./Home/HProduct";
 import HDealers from "./Home/HDealers";
 import Whatapp from "./Whatapp";
+
 // import EmailButton from "./Email";
 
 export default function Home() {
@@ -11,8 +12,6 @@ export default function Home() {
   <>
     <Whatapp/>
     <Landing/>
-    {/* <EmailButton/> */}
-    {/* <Card/> */}
     <HAbout/>
     <HProduct/>
     <HDealers/>

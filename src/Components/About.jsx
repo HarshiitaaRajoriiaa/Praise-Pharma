@@ -9,7 +9,7 @@ export default function AboutUs() {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-16 mb-20 ">
+    <div className="container mx-auto px-4 py-16  mt-10 mb-20 ">
       {/* Centered Title */}
       <div data-aos="fade-up" className="text-center mb-8">
         <h2 className="text-5xl font-bold text-[#0c8536]">About Us</h2>

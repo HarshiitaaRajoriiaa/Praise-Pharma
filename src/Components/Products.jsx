@@ -113,7 +113,7 @@ const medicineCategories = [
 
 const ProductsPage = () => {
   return (
-    <section className="py-12 px-6 md:px-12 mb-10">
+    <section className="py-12 px-6 md:px-12  mt-10 mb-10">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold text-[#0c8536] text-center mb-8">
           Our Products

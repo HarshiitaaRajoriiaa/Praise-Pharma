@@ -25,7 +25,7 @@ const dealers = [
 
 const Dealers = () => {
   return (
-    <div className="container mx-auto px-4 py-10 mb-10 min-h-screen">
+    <div className="container mx-auto px-4 py-10 mb-10 mt-10  min-h-screen">
       <h1 className="text-5xl font-bold text-center text-[#0c8536] mb-8">Our Dealers</h1>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6  ">
         {dealers.map((dealer, index) => (
