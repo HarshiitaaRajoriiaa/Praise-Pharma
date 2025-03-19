@@ -7,7 +7,7 @@ import ESAVA_OINTMENT from '../../Images/Products/Fungal/ESAVAo.webp'
 import ESAVA_LOTION from '../../Images/Products/Fungal/ESAVAlot.webp'
 import ESAVA_CREAM from '../../Images/Products/Fungal/ESAVAC.webp'
 import KESAVA_SHAMPOO from '../../Images/Products/Fungal/KESAVA.webp'
-import ESAVASONE_LOTION from "../../Images/Products/Fungal/ESAVAsONEL.webp"
+import ESAVASONE_LOTION from "../../Images/Products/Fungal/ESAVASONEL.webp"
 import THYMOL_LOTION from "../../Images/Products/Fungal/THYMOLlot.webp"
 import { useState } from 'react'
 
