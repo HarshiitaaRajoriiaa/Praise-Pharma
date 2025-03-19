@@ -3,7 +3,7 @@ import { useState } from "react";
 //high potent
 import PRAISVATE_S6 from "../../Images/Products/Potent/praisvates6.webp"
 import PRAISVATE_S3 from "../../Images/Products/Potent/praisvates3cream.webp"
-import PRAISVATE_CREAM from "../../Images/Products/Potent/PraisvateCream.webp"
+import PRAISVATE_CREAM from "../../Images/Products/Potent/Praisvatecream.webp"
 import PRAISVATE_OINTMENT from "../../Images/Products/Potent/PraisvateOintment.webp"
 
 //low potent
